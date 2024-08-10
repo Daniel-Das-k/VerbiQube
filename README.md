@@ -26,7 +26,7 @@ The Speech-to-Speech system works as follows:
 
 ## Diagram
 
-![Speech-To-Speech Diagram](path/to/your/image.png)
+![Speech-To-Speech Diagram](image/Speech-to-Speech-architecture.png)
 
 ## Process Flow
 
