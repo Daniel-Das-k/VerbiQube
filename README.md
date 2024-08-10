@@ -112,15 +112,15 @@ For example:
 
 ## 2.2 Content Creation
 
-- Once the agent is triggered, it works in tandem with the Llama 3 language model to generate the actual content.
+- Once the agent is triggered, it works in tandem with the GEMINI language model to generate the actual content.
 
-**Input to Llama 3:**
+**Input to GEMINI AI:**
 
-- The agent provides input to the Llama 3 model, which may include keywords, topics, the target audience, and any specific requirements for the post.
+- The agent provides input to the GEMINI model, which may include keywords, topics, the target audience, and any specific requirements for the post.
 
-**Content Generation by Llama 3:**
+**Content Generation by GEMINI:**
 
-- Llama 3 generates text based on the provided input, ensuring it aligns with the platform's guidelines and the intent of the post.
+- GEMINI generates text based on the provided input, ensuring it aligns with the platform's guidelines and the intent of the post.
 
 **Customization:**
 
