@@ -28,7 +28,7 @@ The Speech-to-Speech system works as follows:
 
 ![Speech-To-Speech Diagram](path/to/your/image.png)
 
-## How It Works
+## Process Flow
 
 1. **Automatic Speech Recognition (ASR)**:
    - The system uses Google's online Speech Recognition model to convert spoken language into text.
