@@ -10,7 +10,7 @@
         <h1>Welcome</h1>
         <p>User ID: {{ user_info }}</p>
         <p>User Name: {{ username }}</p>
-        <a href="/oautg"><button>Logout</button></a>
+        <a href="/logout"><button>Logout</button></a>
     {% else %}
         <a href="{{ oauth_uri }}">Login with Twitter</a>
     {% endif %}
