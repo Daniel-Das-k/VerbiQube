@@ -96,52 +96,53 @@ For example:
 
 **Facebook Agent:** 
 
-Focuses on generating content that is suitable for Facebook's format, including options for text, images, and links. It might consider Facebook's algorithm preferences, such as engagement-focused content.
+- Focuses on generating content that is suitable for Facebook's format, including options for text, images, and links. It might consider Facebook's algorithm preferences, such as engagement-focused content.
 
 **Instagram Agent:**
 
-Generates content that emphasizes visuals, hashtags, and concise, engaging captions. It understands the importance of aesthetics and the use of appropriate filters and tags.
+- Generates content that emphasizes visuals, hashtags, and concise, engaging captions. It understands the importance of aesthetics and the use of appropriate filters and tags.
 
 **Twitter (X) Agent:**
 
-Crafts content within the character limit, optimized for quick engagement, trending topics, and retweets. It might suggest hashtags and mentions for broader reach.
+- Crafts content within the character limit, optimized for quick engagement, trending topics, and retweets. It might suggest hashtags and mentions for broader reach.
 
 **LinkedIn Agent:** 
 
-Focuses on professional tone and content, generating posts that are appropriate for business networking, thought leadership, and industry-related discussions.
+- Focuses on professional tone and content, generating posts that are appropriate for business networking, thought leadership, and industry-related discussions.
 
 ## 2.2 Content Creation
 
-Once the agent is triggered, it works in tandem with the Llama 3 language model to generate the actual content.
+- Once the agent is triggered, it works in tandem with the Llama 3 language model to generate the actual content.
 
 **Input to Llama 3:**
 
-The agent provides input to the Llama 3 model, which may include keywords, topics, the target audience, and any specific requirements for the post.
+- The agent provides input to the Llama 3 model, which may include keywords, topics, the target audience, and any specific requirements for the post.
 
 **Content Generation by Llama 3:**
 
-Llama 3 generates text based on the provided input, ensuring it aligns with the platform's guidelines and the intent of the post.
+- Llama 3 generates text based on the provided input, ensuring it aligns with the platform's guidelines and the intent of the post.
 
 **Customization:**
 
-The generated content is then customized by the agent. This might involve adjusting the tone, length, or format of the text, adding relevant hashtags, mentions, or calls to action, and ensuring the content meets the platform's best practices.
+- The generated content is then customized by the agent. This might involve adjusting the tone, length, or format of the text, adding relevant hashtags, mentions, or calls to action, and ensuring the content meets the platform's best practices.
 
 ## 2.3 Contextual Enhancements
 
-CrewAI agents can leverage DuckDuckGo Search to enhance the generated content with additional context, relevant links, or up-to-date information.
+- CrewAI agents can leverage DuckDuckGo Search to enhance the generated content with additional context, relevant links, or up-to-date information.
 
-This step ensures that the content is not only relevant but also enriched with accurate and timely information, improving its quality and engagement potential.
+- This step ensures that the content is not only relevant but also enriched with accurate and timely information, improving its quality and engagement potential.
 
 
 ## 3. Posting Process
 
 **Content Retrieval**
 
-Once the content is ready, it is retrieved from MongoDB along with the appropriate access token.
+- Once the content is ready, it is retrieved from MongoDB along with the appropriate access token.
+  
 Platform-Specific Posting
 
-The content is formatted and prepared for posting to the specific platform.
-Using the stored access tokens, the content is posted to platforms like Facebook, Instagram, Twitter (X), and LinkedIn.
+- The content is formatted and prepared for posting to the specific platform.
+- Using the stored access tokens, the content is posted to platforms like Facebook, Instagram, Twitter (X), and LinkedIn.
 
 ## Dependencies
 
