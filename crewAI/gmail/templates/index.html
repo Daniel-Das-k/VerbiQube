@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Creating App</title>
+</head>
+<body>
+    <h1>Email Creating App</h1>
+    <form id="emailForm">
+        <textarea id="llm-request" name="user_input" style="width: 30%; height: 300px;"></textarea><br>
+        <input type="hidden" id="chat-history" name="chat_history" value="">
+        <button type="submit">Submit</button>
+    </form>
+    <div id="output-space"></div>
+    <script>
+        document.getElementById('emailForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const userInput = document.getElementById('llm-request').value;
+            const chatHistory = document.getElementById('chat-history').value;
+            fetch('/draft_email', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: new URLSearchParams({
+                    'user_input': userInput,
+                    'chat_history': chatHistory
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('output-space').innerText = data.output;
+                document.getElementById('chat-history').value = data.chat_history;
+            });
+        });
+    </script>
+</body>
+</html>
+
