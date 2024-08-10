@@ -55,7 +55,7 @@ The entire process involved in authenticating social media accounts, generating 
 
 ## Authentication Flow
 
-![Speech-To-Speech Diagram](image/Speech-to-Speech-architecture.png)
+![Authentication Diagram](image/Authentication-Flow.png)
 
 **Social Media Platform Connection**
 
@@ -81,7 +81,7 @@ This allows the system to access the user's account for content posting without 
 
 ## Generation Flow
 
-![Speech-To-Speech Diagram](image/Speech-to-Speech-architecture.png)
+![Generation Diagram](image/Generation-Flow.png)
 
 ## 2.1 Initiation of Content Generation
 
