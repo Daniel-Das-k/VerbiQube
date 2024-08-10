@@ -59,22 +59,22 @@ The entire process involved in authenticating social media accounts, generating 
 
 **Social Media Platform Connection**
 
-The process begins by connecting the system to various social media platforms like LinkedIn, Instagram, Facebook, and Twitter (X).
+- The process begins by connecting the system to various social media platforms like LinkedIn, Instagram, Facebook, and Twitter (X).
 Users initiate the connection by clicking the "CONNECT" button for the desired platform.
 
 **Redirection to Authorization Page**
 
-Upon clicking "CONNECT," the user is redirected to the respective platform's authorization page.
+- Upon clicking "CONNECT," the user is redirected to the respective platform's authorization page.
 Here, the user must log in and grant the necessary permissions for the system to manage their account (e.g., posting content, retrieving data).
 
 **Access Token Retrieval**
 
-After successful authorization, the platform provides an Access_Token, which is essential for performing actions on behalf of the user.
+- After successful authorization, the platform provides an Access_Token, which is essential for performing actions on behalf of the user.
 The system also receives additional data such as Token_expiry (indicating when the token will expire) and, in some cases, a Refresh_Token (used to obtain a new access token when the current one expires).
 
 **Token Storage**
 
-The Access_Token, Token_expiry, and Refresh_Token are securely stored in a MongoDB database.
+- The Access_Token, Token_expiry, and Refresh_Token are securely stored in a MongoDB database.
 This allows the system to access the user's account for content posting without needing to re-authenticate each time.
 
 ## 2. Content Generation
