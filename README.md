@@ -1,9 +1,8 @@
-# Automation-SocialMedia
 
 # VerbiQube
 
 
-# Speech-To-Speech System
+## Speech-To-Speech System
 
 A Speech-to-Speech system that utilizes Google Speech Recognition and Google Text-to-Speech (TTS) technologies to convert spoken language into text, process it, and then convert the processed text back into speech.
 
