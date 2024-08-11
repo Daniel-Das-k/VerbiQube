@@ -1,6 +1,23 @@
 
 # VerbiQube
+ Our AI-Powered Content Generation Platform utilizes state-of-the-art AI and natural language
+ processing to streamline content creation across various formats such as text, social media posts, and
+ emails. Powered by advanced technologies like CrewAI and Lang Graph, the platform seamlessly
+ handles publishing and draft management through integrated user accounts and secure access
+ tokens. 
+ 
+ Key features include advanced algorithms for text and YouTube video summarization, ensuring content
+ is concise and compelling. The platform also integrates robust plagiarism detection using Robert's
+ model to maintain content originality. Customizable AI agents tailored to specific user needs further
+ enhance interaction and productivity.Additional functionalities include automated code documentation, streamlining the process of
+ documenting software projects according to industry standards. YouTube video referencing enhances
+ content relevance by providing insights into similar videos, optimizing content strategy. Metadata
+ generation simplifies video uploads with automated title and description creation. Discord integration
+ fosters community engagement by automating posts related to video uploads.
 
+## Architecture diagram
+
+ ![VerbiQube Architecture](image/Complete_architecture.png)
 
 ## Speech-To-Speech System
 
