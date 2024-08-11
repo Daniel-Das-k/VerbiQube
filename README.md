@@ -19,6 +19,31 @@
 
  ![VerbiQube Architecture](image/Complete_architecture.png)
 
+
+ ### 1. Download the library and run the code:
+   ```bash
+        npm install
+        npm run dev
+   ```
+#### For python :
+1. Create a new conda environment named sense by running:
+```bash
+conda create -n verbiqube python=3.11
+```
+2. Activate the environment:
+```bash
+conda activate verbiqube
+```
+3. To install the requirements:
+```bash
+pip install -r requirements.txt
+```
+ 4.To run the file:
+```
+cd backend
+python app.py
+```
+
 ## Speech-To-Speech System
 
 A Speech-to-Speech system that utilizes Google Speech Recognition and Google Text-to-Speech (TTS) technologies to convert spoken language into text, process it, and then convert the processed text back into speech.
