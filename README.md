@@ -174,4 +174,13 @@ DuckDuckGo: For privacy-focused web searches.
 Social Media APIs: For connecting to and posting content on social media platforms.
 
 
+## 4. Plagiarism Checker
+
+VerbiQube’s  plagiarism checker compares the provided content against related websites on the internet to ensure originality.
+
+Additionally, it utilizes a 12-layer RoBERTa model to detect if the given content is AI-generated.
+
+![Generation Diagram](image/image.png)
+
+
 
