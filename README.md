@@ -53,7 +53,7 @@ The entire process involved in authenticating social media accounts, generating 
 
 ## 1. Authentication Process
 
-## Authentication Flow
+## Architecture
 
 ![Authentication Diagram](image/Authentication-Flow.png)
 
@@ -79,7 +79,7 @@ This allows the system to access the user's account for content posting without 
 
 ## 2. Content Generation
 
-## Generation Flow
+## Architecture
 
 ![Generation Diagram](image/Generation-Flow.png)
 
