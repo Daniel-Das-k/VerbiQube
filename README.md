@@ -207,5 +207,17 @@ Additionally, it utilizes a 12-layer RoBERTa model to detect if the given conten
 
 ![Generation Diagram](image/image.png)
 
+## 5. Text and Video Summarisation
+VerbiQube's summarization accepts various input formats.
+
+Formats include documents, text, PDFs, and YouTube videos.
+
+CrewAI processes the provided content.
+
+Generates concise summaries from the content.
+
+Delivers clear and efficient content summaries.
+
+![Generation Diagram](image/summarisation.png.png)
 
 
