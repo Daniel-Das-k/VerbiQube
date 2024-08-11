@@ -218,6 +218,6 @@ Generates concise summaries from the content.
 
 Delivers clear and efficient content summaries.
 
-![Generation Diagram](image/summarisation.png.png)
+![Generation Diagram](image/summarisation.png)
 
 
